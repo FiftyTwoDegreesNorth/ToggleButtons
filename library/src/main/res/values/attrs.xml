@@ -25,14 +25,6 @@
         <attr name="backgroundColor" format="color"/>
     </declare-styleable>
 
-    <!-- Standard orientation constant. -->
-    <attr name="orientation">
-        <!-- Defines an horizontal widget. -->
-        <enum name="horizontal" value="0" />
-        <!-- Defines a vertical widget. -->
-        <enum name="vertical" value="1" />
-    </attr>
-
     <declare-styleable name="ToggleButton">
         <!-- The text for the button when it is checked. -->
         <attr name="textOn" format="string" />

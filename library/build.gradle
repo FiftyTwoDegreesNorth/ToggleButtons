@@ -32,6 +32,7 @@ android {
 dependencies {
     compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     compile "com.android.support:cardview-v7:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:gridlayout-v7:${rootProject.ext.supportLibVersion}"
 }
 
 gradle.startParameter.taskNames.each { task ->
